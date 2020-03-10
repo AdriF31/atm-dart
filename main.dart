@@ -21,7 +21,6 @@ void main(){
 
 int transaksi(int saldo){
   saldo = saldo;
-  print("\nsaldo anda: $saldo");
   print("Pilih menu yang diinginkan");
   print("1.Tarik Tunai\n2.Setor Tunai\n3.Cek Saldo\n4.LOGOUT");
   stdout.write("Masukkan pilihan  (1/2/3/4) : ");
