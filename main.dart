@@ -13,7 +13,7 @@ void main(){
     transaksi(saldo);
   }else if((username == user['user2'] && password == user['pass2'])){
     int saldo = 200000;
-   transaksi(saldo);
+    transaksi(saldo);
   }else{
     main();
   }
@@ -45,7 +45,7 @@ int transaksi(int saldo){
       transaksi(saldo);
     }break;
     case 3 :{
-      print("-------------------SETOR TUNAI--------------");
+      print("-------------------SALDO--------------");
       print("saldo anda : Rp $saldo");
       transaksi(saldo);
     }break;
